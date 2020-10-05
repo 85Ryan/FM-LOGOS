@@ -1,0 +1,39 @@
+<record>
+  <!-- resource manager options -->
+
+  <!-- dont preload anything in this folder -->
+  <boolean id="preload" value="false" />
+
+  <!-- turn off auto mapping -->
+  <boolean id="amap" value="false" />
+
+  <!-- logo mappings -->
+  <!-- the following XML maps pictures inside this folder into other positions
+		in the resource system, which allows this folder to be dropped into any
+		place in the graphics folder and still have the game pick up the graphics
+		files from the correct places
+	-->
+
+  <list id="maps">
+    <!-- small logo -->
+    <!-- <record from="pic_name" to="graphics/pictures/club/@id/icon" /> -->
+    <!-- normal logo -->
+    <!-- <record from="pic_name" to="graphics/pictures/club/@id/logo" /> -->
+    <record from="406" to="graphics/pictures/club/406/icon" />
+    <record from="409" to="graphics/pictures/club/409/icon" />
+    <record from="414" to="graphics/pictures/club/414/icon" />
+    <record from="416" to="graphics/pictures/club/416/icon" />
+    <record from="115940" to="graphics/pictures/club/115940/icon" />
+    <record from="115942" to="graphics/pictures/club/115942/icon" />
+    <record from="116403" to="graphics/pictures/club/116403/icon" />
+    <record from="131162" to="graphics/pictures/club/131162/icon" />
+    <record from="131169" to="graphics/pictures/club/131169/icon" />
+    <record from="23147325" to="graphics/pictures/club/23147325/icon" />
+    <record from="23165273" to="graphics/pictures/club/23165273/icon" />
+    <record from="23194491" to="graphics/pictures/club/23194491/icon" />
+    <record from="23257514" to="graphics/pictures/club/23257514/icon" />
+    <record from="23292170" to="graphics/pictures/club/23292170/icon" />
+    <record from="23295502" to="graphics/pictures/club/23295502/icon" />
+    <record from="34053971" to="graphics/pictures/club/34053971/icon" />
+  </list>
+</record>
